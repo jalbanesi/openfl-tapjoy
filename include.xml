@@ -8,6 +8,6 @@
 	<dependency name="tapjoy" path="dependencies/android" if="android" />
 	<android extension="org.haxe.extension.Tapjoy" />
 	
-	<template path="dependencies/android/src/org/haxe/extension/util/tapjoyconnectlibrary.jar" rename="deps/amazon_purchases/libs/tapjoyconnectlibrary.jar"/>
+	<template path="dependencies/android/src/org/haxe/extension/util/tapjoyconnectlibrary.jar" rename="deps/tapjoy/libs/tapjoyconnectlibrary.jar"/>
 	
 </project>
