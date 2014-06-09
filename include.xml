@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+	
+	<ndll name="tapjoy" />
+	
+	<!-- Use the following for an Android Java extension, not needed otherwise -->
+	
+	<dependency name="tapjoy" path="dependencies/android" if="android" />
+	<android extension="org.haxe.extension.Tapjoy" />
+	
+	<template path="dependencies/android/src/org/haxe/extension/util/tapjoyconnectlibrary.jar" rename="deps/amazon_purchases/libs/tapjoyconnectlibrary.jar"/>
+	
+</project>
